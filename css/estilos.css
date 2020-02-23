@@ -1,0 +1,90 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Knewave|Noto+Sans|Roboto+Mono:700|Roboto+Slab&display=swap');
+</style>
+
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+html{
+    scroll-behavior: smooth
+}
+#pepe{
+    text-decoration: none
+}
+body{
+    background-image: url(../img/fondo.jpg) 
+}
+.navbar{
+    background: black !important
+}
+ 
+.navbar-nav{
+    justify-content: space-between;
+    width: 100%;  
+}
+a.nav-link{
+    font-size: 30px
+}
+
+.hiper{
+  color: black
+}
+
+
+
+.boton_footer:hover{
+    background: yellow;
+    color: black !important
+}
+
+
+/*fuentes*/
+.fuente1{
+    font-family: 'Roboto Mono', monospace;}
+.fuente2{
+    font-family: 'Roboto Slab', serif;
+}
+.fuente3{
+    font-family: 'Noto Sans', sans-serif;
+}
+.fuente4{
+    font-family: 'Knewave', cursive;
+
+}
+
+
+
+.carts{
+    width: 100%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:991px){
+    .logoNavBar {
+   
+        position: relative;
+        left: 35%
+        
+            
+        
+    }
+}
